@@ -11,12 +11,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <script src="main.js" type="module"></script>
   </head>
 
   <body>
     <main>
       <img src="./img/bag.png" alt="sacola de compras" />
       <form>
+        <h1>teste</h1>
         <input
           class="input-item"
           id="input-item"
@@ -29,17 +31,11 @@
       <div class="container-lista">
         <h2>Lista de compras</h2>
         <hr />
-
         <ul id="lista-de-compras">
-          <li>
-            <div class="lista-item-container">
-              <input type="checkbox" id="checkbox-1" />
-              <p>Ração de gato</p>
-            </div>
-            <p class="texto-data">Segunda-feira (31/10/2022) às 08:30</p>
-          </li>
+         <p class="mensagem-lista-vazia">Não há item na lista no momento</p>
         </ul>
       </div>
     </main>
+   
   </body>
 </html>
